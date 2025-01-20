@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Extrinsische Semantik</title>
+  </head>
+  <body>
+    <!-- enrich with ARIA roles, properties and states -->
+    <!-- use tablist, tab, tabpanel, aria-labelledby, aria-selected, aria-controls -->
+    <div class="tabs">
+      <h3 id="tablist-1">Buchung</h3>
+      <ul role="tablist" aria-labelledby="tablist-1">
+        <li role="tab" aria-controls="tabpanel-1" aria-selected="true">
+          <button id="tab-1">Flug</button>
+        </li>
+        <li role="tab" aria-controls="tabpanel-2" aria-selected="false">
+          <button id="tab-2" tabindex="-1">Hotel</button>
+        </li>
+        <li role="tab" aria-controls="tabpanel-3" aria-selected="false">
+          <button id="tab-3" tabindex="-1">Mietwagen</button>
+        </li>
+      </ul>
+      <div id="tabpanel-1" role="tabpanel" aria-labelledby="tab-1" tabindex="0">Buchung eines Flugs</div>
+      <div id="tabpanel-2" role="tabpanel" aria-labelledby="tab-2" tabindex="0" hidden>Buchung eines Hotels</div>
+      <div id="tabpanel-3" role="tabpanel" aria-labelledby="tab-3" tabindex="0" hidden>Buchung eines Mietwagens</div>
+    </div>
+    <!-- // enrich with ARIA roles, properties and states -->
+  </body>
+</html>
