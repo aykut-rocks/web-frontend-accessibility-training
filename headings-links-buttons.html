@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Headings</title>
+    <style>
+      header {
+        width: 100%;
+        height: 150px;
+        background-color: #efaf96;
+        margin-bottom: 12px;
+      }
+      nav {
+        width: 100%;
+        height: 100px;
+        background-color: #ea9087;
+        margin-bottom: 12px;
+      }
+      search {
+        width: 100%;
+        height: 50px;
+        background-color: #8497b5;
+        margin-bottom: 12px;
+      }
+      section {
+        width: 100%;
+        height: 100px;
+        background-color: #cb8d9a;
+        margin-bottom: 12px;
+      }
+      main {
+        padding: 12px 0;
+        margin-bottom: 12px;
+      }
+      .container {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 12px;
+        width: 100%;
+      }
+      article {
+        width: 70%;
+        height: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        padding: 16px;
+      }
+      aside {
+        width: 30%;
+        height: 100%;
+        background-color: #efaf96;
+        padding: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+      }
+      footer {
+        width: 100%;
+        height: 100px;
+        background-color: #efaf96;
+      }
+      h2 span {
+        display: block;
+      }
+      h2 span:first-child {
+        color: #d00;
+      }
+      .sharing-list {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+      }
+      .sharing-list button {
+        padding: 8px 16px;
+        background-color: #d00;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- optimize landmarks -->
+    <header>
+      <h1>
+        Krafttraining ohne Schuhe: Mehr Muskel-Power durch Barfuß-Training?
+      </h1>
+    </header>
+    <nav><p>Hauptnavigation</p></nav>
+    <search><p>Suche</p></search>
+    <section aria-label="Werbung"><p>Werbebanner</p></section>
+    <main arira-labelledby="article-headline">
+      <div class="container">
+        <article id="article">
+          <h2>
+            <span>Pumpen ohne Schuhe</span>
+            <span>Bringt Socken-Training mehr Muskel-Power?</span>
+          </h2>
+          <p>
+            Überraschung im Fitnessstudio: Plötzlich stehen immer mehr Sportler
+            ohne Schuhe an den Geräten. Für Standradfahrer und Gym-Läufer
+            unverständlich. Doch der Barfuß-Trend hat tatsächlich handfeste
+            Vorteile.
+          </p>
+          <ul
+            class="sharing-list"
+            aria-label="Artikel im sozialen Netzwerk teilen"
+          >
+            <li><button>Facebook</button></li>
+            <li><button>Instagram</button></li>
+            <li><button>Pinterest</button></li>
+            <li><button>TikTok</button></li>
+            <li><button>WhatsApp</button></li>
+          </ul>
+          <p>
+            Ohne Schuhe spürt der Körper mehr. Das Nervensystem wird aktiviert,
+            die Fußmuskulatur gestärkt und das Gleichgewicht gefestigt. Der
+            Effekt: mehr Power beim Heben und ein stabilerer Stand. Dabei ist es
+            egal, ob man in Socken oder mit nackten Füßen
+            <a href="#">trainiert</a>.
+          </p>
+          <h4 id="read-more-articles-1">Lesen Sie auch</h4>
+          <ul aria-labelledby="read-more-articles-1">
+            <li>
+              <a href="artikel1.html"
+                >Schon einfachstes Training senkt den Blutdruck</a
+              >
+            </li>
+            <li>
+              <a href="artikel1.html"
+                >Dieses Training stoppt Ihr Hungergefühl</a
+              >
+            </li>
+          </ul>
+          <h3>Mehr Stabilität bedeutet mehr Kraft</h3>
+          <p>
+            <a href="#">Fitness-Experte und Promi-Trainer Jörn Giersberg</a>
+            erklärt im Gespräch mit BILD: „Barfuß-Training fördert die
+            Körperwahrnehmung, weil man ohne Schuhe bewusster trainiert und mehr
+            Balance sowie Koordination benötigt.“ Besonders bei Übungen mit
+            starkem Unterkörpereinsatz übernimmt der Fuß Aufgaben, die sonst der
+            Schuh erfüllt, was Muskelketten von Füßen über Waden bis hin zur
+            Hüfte anspricht.
+          </p>
+          <p>
+            Giersberg: „Die kleinen Impulse, die ohne Schuhe wirken, stärken
+            auch die tieferliegenden Muskeln und sorgen langfristig für bessere
+            Stabilität, wenn man wieder mit Schuhen trainiert.“ Dadurch ist auf
+            Dauer mehr <a href="#">Gewichtslast</a> möglich. Und das heißt:
+            dickere Muckis!
+          </p>
+          <p>
+            Nicht nur Pumper profitieren vom Ohne-Schuhe-Trend. Wer Geräte- und
+            Hanteltraining zur Geschmeidigkeit des Körpers betreibt, wird durch
+            Schuhlos-Training flexibler und weniger verletzungsanfällig.
+            Kräftigere tief liegende Fußmuskeln wirken sich positiv auf die
+            gesamte Haltung aus und reduzieren das Risiko für Knöchel- und
+            Gelenkprobleme.
+          </p>
+          <h4 id="read-more-articles-2">Lesen Sie auch</h4>
+          <ul aria-labelledby="read-more-articles-2">
+            <li>
+              <a href="artikel1.html"
+                >Nur 6 Meter zeigen wie Fit sie noch sind</a
+              >
+            </li>
+            <li>
+              <a href="artikel1.html">Warum es besser ist langsam zu joggen</a>
+            </li>
+          </ul>
+          <h3>Spezial-Schuhe für Gewichtheber</h3>
+          <p>
+            Giersberg betont allerdings, dass
+            <a href="#">Fitness-Anfänger</a> unbedingt Schuhe tragen sollten, um
+            sich auf korrekte Bewegungsabläufe zu konzentrieren und Verletzungen
+            vorzubeugen: „Schuhe bieten Halt und Sicherheit. Erst wenn die
+            Technik sitzt, kann man barfuß trainieren, um neue Muskelreize zu
+            setzen.“ Ausnahmen sieht er bei
+            <a href="#">Calisthenics-Übungen</a> wie Trizeps-Dips oder
+            Klimmzügen, die problemlos barfuß oder auf Socken durchgeführt
+            werden können.
+          </p>
+          <h4 id="interesting-articles">Auch Interessant</h4>
+          <ul aria-labelledby="interesting-articles">
+            <li>
+              <a href="artikel1.html">Online Broker und Depots im Test</a>
+            </li>
+            <li><a href="artikel1.html">Die besten Kreditkarten 2025</a></li>
+          </ul>
+          <p>
+            Bei Übungen mit hohen Lasten rät Giersberg jedoch zur
+            Barfuß-Vorsicht, sonst drohen Stressfrakturen und Entzündungen.
+            Giersberg: „Wadenheben mit Langhantel, Beinpresse oder schweres
+            Kreuzheben sollten mit Schuhen absolviert werden. Auch bei
+            orthopädischen Schwächen oder physiotherapeutischen Behandlungen ist
+            Vorsicht geboten.“
+          </p>
+          <p>
+            Gewichtheber tragen sogar spezielle Schuhe mit erhöhtem Hacken, sagt
+            <a href="#">Ex-Kraftdreikämpfer und Fitness-Autor Mark Rippetoe</a>
+            in der „New York Times“: „Krafttraining kann man problemlos barfuß
+            machen, aber wenn man deutlich mehr als das eigene Körpergewicht
+            hebt, sollte man richtige Gewichtheber-Schuhe mit harten Sohlen
+            tragen.“
+          </p>
+          <p>
+            Allerdings empfiehlt Personal Trainer Jörn Giersberg, im vollen
+            Fitnessstudio immer Schuhe zu tragen – zum Schutz vor herabfallenden
+            Hanteln und Gewichtsscheiben.
+          </p>
+        </article>
+        <aside>
+          <h5 id="partner-articles">Partnerangebote</h5>
+          <ul aria-labelledby="partner-articles">
+            <li>Artikel 1</li>
+            <li>Artikel 2</li>
+            <li>Artikel 3</li>
+          </ul>
+
+          <h5 id="network-articles">Mehr aus dem Netz</h5>
+          <ul aria-labelledby="network-articles">
+            <li>Artikel 1</li>
+            <li>Artikel 2</li>
+            <li>Artikel 3</li>
+          </ul>
+        </aside>
+      </div>
+    </main>
+    <footer>Fußzeile</footer>
+    <!-- // optimize landmarks -->
+  </body>
+</html>
